@@ -86,6 +86,7 @@ GameObject:
   - 95: {fileID: 65127686}
   - 61: {fileID: 65127685}
   - 50: {fileID: 65127684}
+  - 114: {fileID: 65127689}
   m_Layer: 0
   m_Name: TeslaBoy
   m_TagString: Untagged
@@ -128,7 +129,7 @@ Animator:
   m_GameObject: {fileID: 65127683}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 839d33bd40eb14d338a6d3b88ce84650, type: 2}
+  m_Controller: {fileID: 9100000, guid: 500b26fd51fc0439ab47998ddfa384e9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -168,6 +169,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &65127689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 65127683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a909f4d5e24174c8cb1b0044ee6f1dac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topSpeed: 10
 --- !u!1 &779945154
 GameObject:
   m_ObjectHideFlags: 0
