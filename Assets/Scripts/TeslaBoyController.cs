@@ -17,9 +17,9 @@ public class TeslaBoyController : MonoBehaviour
 			Debug.LogError("TeslaBoyController needs an Animator component!");
 		}
 	}
-	
+
 	// Update is called once per frame
-	void Update ()
+	void FixedUpdate ()
 	{
 		float speed = Input.GetAxis("Horizontal") * topSpeed;
 
@@ -33,6 +33,11 @@ public class TeslaBoyController : MonoBehaviour
 			Flip();
 		}
 
+
+		rigidbody2D.velocity = new Vector2(speed, rigidbody2D.velocity.y);
+
+
+		//rigidbody2D.MovePosition(transform.position + new Vector3(speed, rigidbody2D.velocity.y, 0) * Time.deltaTime);
 
 		speed = Mathf.Abs(speed);
 		animator.SetFloat("Speed", speed);
