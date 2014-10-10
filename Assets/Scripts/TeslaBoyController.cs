@@ -4,6 +4,7 @@ using System.Collections;
 public class TeslaBoyController : MonoBehaviour
 {
 	public float topSpeed = 10.0f;
+	public float jumpForce = 10.0f;
 
 	private Animator animator;
 	private bool facingRight = true;
@@ -15,6 +16,15 @@ public class TeslaBoyController : MonoBehaviour
 		if (animator == null)
 		{
 			Debug.LogError("TeslaBoyController needs an Animator component!");
+		}
+	}
+
+	void Update()
+	{
+		// Vertical movement / Jump
+		if (Input.GetButtonDown("Jump"))
+		{
+			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpForce);
 		}
 	}
 
@@ -33,15 +43,11 @@ public class TeslaBoyController : MonoBehaviour
 			Flip();
 		}
 
-
+		// Horizontal movement
 		rigidbody2D.velocity = new Vector2(speed, rigidbody2D.velocity.y);
-
-
-		//rigidbody2D.MovePosition(transform.position + new Vector3(speed, rigidbody2D.velocity.y, 0) * Time.deltaTime);
 
 		speed = Mathf.Abs(speed);
 		animator.SetFloat("Speed", speed);
-
 	}
 
 	void Flip()
