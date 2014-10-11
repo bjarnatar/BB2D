@@ -5,6 +5,8 @@ public class TeslaBoyController : MonoBehaviour
 {
 	public float topSpeed = 10.0f;
 	public float jumpForce = 10.0f;
+	public Transform groundCheck;
+	public float groundedDistance = 0.05f;
 
 	private Animator animator;
 	private bool facingRight = true;
@@ -22,7 +24,7 @@ public class TeslaBoyController : MonoBehaviour
 	void Update()
 	{
 		// Vertical movement / Jump
-		if (Input.GetButtonDown("Jump"))
+		if (IsGrounded() && Input.GetButtonDown("Jump"))
 		{
 			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpForce);
 		}
@@ -57,5 +59,18 @@ public class TeslaBoyController : MonoBehaviour
 		Vector3 scale = transform.localScale;
 		scale.x *= -1;
 		transform.localScale = scale;
+	}
+
+	bool IsGrounded()
+	{
+		Vector2 start = new Vector2(groundCheck.transform.position.x, groundCheck.transform.position.y);
+		Vector2 end = start + Vector2.up * -groundedDistance;
+		RaycastHit2D rh = Physics2D.Linecast(start, end);
+
+		if (rh.collider)
+		{
+			return true;
+		}
+		return false;
 	}
 }
