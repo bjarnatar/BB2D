@@ -5,7 +5,7 @@ public class TeslaBoyController : MonoBehaviour
 {
 	public float topSpeed = 10.0f;
 	public float jumpForce = 10.0f;
-	public Transform groundCheck;
+	public Transform[] groundCheck;
 	public float groundedDistance = 0.05f;
 
 	private Animator animator;
@@ -63,14 +63,19 @@ public class TeslaBoyController : MonoBehaviour
 
 	bool IsGrounded()
 	{
-		Vector2 start = new Vector2(groundCheck.transform.position.x, groundCheck.transform.position.y);
-		Vector2 end = start + Vector2.up * -groundedDistance;
-		RaycastHit2D rh = Physics2D.Linecast(start, end);
-
-		if (rh.collider)
+		for (int i = 0 ; i < groundCheck.Length ; ++i)
 		{
-			return true;
+			Vector2 start = new Vector2(groundCheck[i].position.x, groundCheck[i].position.y);
+			Vector2 end = start + Vector2.up * -groundedDistance;
+			RaycastHit2D rh = Physics2D.Linecast(start, end);
+
+			if (rh.collider)
+			{
+				return true;
+			}
 		}
 		return false;
 	}
+
+
 }
