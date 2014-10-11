@@ -150,6 +150,7 @@ GameObject:
   - 114: {fileID: 65127689}
   - 68: {fileID: 65127685}
   - 68: {fileID: 65127690}
+  - 114: {fileID: 65127691}
   m_Layer: 0
   m_Name: TeslaBoy
   m_TagString: Player
@@ -271,6 +272,19 @@ EdgeCollider2D:
   - {x: .367328703, y: .352805614}
   - {x: .373676568, y: .137361765}
   - {x: .162358642, y: -.136854649}
+--- !u!114 &65127691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 65127683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0130f4d2f69b347a48e64c84843b7863, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 3
+  force: 10
 --- !u!1 &94128702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,7 +1955,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1938516810}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
 --- !u!4 &1938516813
