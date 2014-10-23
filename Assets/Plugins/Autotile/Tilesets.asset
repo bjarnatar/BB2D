@@ -1,0 +1,4957 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71077100388b3ee4c958340febd1194b, type: 3}
+  m_Name: Tilesets
+  m_EditorClassIdentifier: 
+  sets:
+    show: 1
+    keys:
+    - Template
+    - Column
+    - Arabic Blue
+    - Bricks
+    - Top Down
+    - GrassBasic
+    - Retrograd
+    values:
+    - tileSize: 128
+      uvMarginMode: 0
+      material: {fileID: 2100000, guid: b917d072653477d4ebd1c0234677cbd0, type: 2}
+      centerSets:
+        keys: 010000000200000004000000
+        values:
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .75
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .75
+              width: .125
+              height: .125
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .375
+              y: .625
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .125
+              y: .875
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .375
+              y: .25
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .25
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .5
+              width: .125
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .5
+              width: .125
+              height: .25
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .625
+              width: .25
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .875
+              width: .25
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .75
+              width: .25
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .125
+              y: .5
+              width: .125
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .125
+              height: .5
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .125
+              height: .5
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .5
+              width: .5
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .875
+              width: .5
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .75
+              width: .5
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .125
+              y: 0
+              width: .125
+              height: .5
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+        _smallestKey: 1
+      corners:
+        aaaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .625
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aaad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: 0
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .125
+            y: .75
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aarg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .875
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .125
+            y: .75
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        addd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .375
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .125
+            y: .875
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .875
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bbbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bblc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcdc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .625
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .375
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        darg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .5
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .125
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dddd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .625
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgla:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .5
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .75
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcdd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        raac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .625
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        radc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .25
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rarb:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .75
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .375
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rddc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .125
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .25
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rgbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .125
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rglc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: 0
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        unknown:
+          atlasLocation:
+            serializedVersion: 2
+            x: .439999998
+            y: .0599999987
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+    - tileSize: 512
+      uvMarginMode: 0
+      material: {fileID: 2100000, guid: f58fb62bcf0f2bd4ebac226b3828d04e, type: 2}
+      centerSets:
+        keys: 01000000
+        values:
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .5
+              height: .5
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .5
+              height: .5
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .5
+              height: .5
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .5
+              height: .5
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .5
+              height: .5
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: 0
+              width: .5
+              height: .5
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+        _smallestKey: 1
+      corners:
+        aaaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aaad:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aada:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .5
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aarg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adad:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adda:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        addd:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agld:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bbbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bblc:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcac:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcdc:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daad:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        darg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddad:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddda:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dddd:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgld:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbld:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcad:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcda:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcdd:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        raac:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        radc:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rarb:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdac:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rddc:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rgbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rglc:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        unknown:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .5
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+    - tileSize: 256
+      uvMarginMode: 0
+      material: {fileID: 2100000, guid: a309a9ea582b3f3469ccfdcbd1dd0721, type: 2}
+      centerSets:
+        keys: 0100000002000000
+        values:
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: 0
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: 0
+              width: .25
+              height: .25
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .5
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .75
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .25
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .25
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .25
+              height: .5
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .25
+              height: .5
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .5
+              width: .5
+              height: .25
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .75
+              width: .5
+              height: .25
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .25
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .25
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+        _smallestKey: 1
+      corners:
+        aaaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aaad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aarg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .75
+            width: .25
+            height: .25
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        addd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .75
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .75
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bbbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bblc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .5
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcdc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .25
+            width: .25
+            height: .25
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        darg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dddd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgla:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbla:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .5
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcdd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        raac:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .5
+            width: .25
+            height: .25
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        radc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rarb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: 0
+            width: .25
+            height: .25
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rddc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rgbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: 0
+            width: .25
+            height: .25
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rglc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        unknown:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+    - tileSize: 128
+      uvMarginMode: 0
+      material: {fileID: 2100000, guid: 4796d77302e17fc40bc3b3dd91b84157, type: 2}
+      centerSets:
+        keys: 010000000200000004000000
+        values:
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .75
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .75
+              width: .125
+              height: .125
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .375
+              y: .625
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .125
+              y: .875
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .375
+              y: .25
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .25
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .5
+              width: .125
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .5
+              width: .125
+              height: .25
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .625
+              width: .25
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .875
+              width: .25
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .75
+              width: .25
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .125
+              y: .5
+              width: .125
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .125
+              height: .5
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .125
+              height: .5
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .5
+              width: .5
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .875
+              width: .5
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .75
+              width: .5
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .125
+              y: 0
+              width: .125
+              height: .5
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+        _smallestKey: 1
+      corners:
+        aaaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .625
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aaad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: 0
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .125
+            y: .75
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aarg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .875
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .125
+            y: .75
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        addd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .375
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .125
+            y: .875
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .875
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bbbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bblc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcdc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .625
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .375
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        darg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .5
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .125
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dddd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .625
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgla:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .5
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .75
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcdd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        raac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .625
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        radc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .25
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rarb:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .75
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .375
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rddc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .125
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .25
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rgbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .125
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rglc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: 0
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        unknown:
+          atlasLocation:
+            serializedVersion: 2
+            x: .439999998
+            y: .0599999987
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+    - tileSize: 256
+      uvMarginMode: 0
+      material: {fileID: 2100000, guid: 528b963a1e9f24e4bb30607f8e0437c3, type: 2}
+      centerSets:
+        keys: 01000000
+        values:
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .25
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .25
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: 0
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .5
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .25
+              height: .25
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+        _smallestKey: 1
+      corners:
+        aaaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aaad:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aada:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aarg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .5
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adad:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adda:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        addd:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .5
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .5
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agld:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bbbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bblc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .75
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcdc:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daad:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dada:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        darg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddad:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddda:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dddd:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgld:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .5
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbld:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcad:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcda:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcdd:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        raac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        radc:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rarb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdac:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rddc:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rgbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rglc:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        unknown:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .25
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+    - tileSize: 128
+      uvMarginMode: 0
+      material: {fileID: 2100000, guid: 68ce23b63cc3e1546bd0079686345ee6, type: 2}
+      centerSets:
+        keys: 010000000200000004000000
+        values:
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .75
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .75
+              width: .125
+              height: .125
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .375
+              y: .625
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .125
+              y: .875
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .375
+              y: .25
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .25
+              width: .125
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .5
+              width: .125
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .5
+              width: .125
+              height: .25
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .625
+              width: .25
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .875
+              width: .25
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .75
+              width: .25
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .125
+              y: .5
+              width: .125
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .125
+              height: .5
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .125
+              height: .5
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .5
+              width: .5
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .875
+              width: .5
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .5
+              y: .75
+              width: .5
+              height: .125
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .125
+              y: 0
+              width: .125
+              height: .5
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+        _smallestKey: 1
+      corners:
+        aaaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .625
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aaad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .5
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .625
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aarg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .625
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .125
+            y: .75
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        addd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .375
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .125
+            y: .875
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .875
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bbbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bblc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcdc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .625
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .375
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        darg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .5
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .375
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .125
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dddd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .5
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .625
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgla:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .5
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .75
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .625
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .375
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .25
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcdd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .125
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: 0
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        raac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .625
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        radc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .25
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rarb:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .75
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .375
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rddc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: .125
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .25
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rgbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .875
+            y: .125
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rglc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .75
+            y: 0
+            width: .125
+            height: .125
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        unknown:
+          atlasLocation:
+            serializedVersion: 2
+            x: .439999998
+            y: .0599999987
+            width: .125
+            height: .125
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+    - tileSize: 16
+      uvMarginMode: 0
+      material: {fileID: 2100000, guid: 45563034469b71f4687dbeb46eaecaa6, type: 2}
+      centerSets:
+        keys: 0100000002000000
+        values:
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .899999976
+              width: .0500000007
+              height: .0500000007
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .150000006
+              y: .899999976
+              width: .0500000007
+              height: .0500000007
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .200000003
+              y: .800000012
+              width: .0500000007
+              height: .0500000007
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .0500000007
+              y: .949999988
+              width: .0500000007
+              height: .0500000007
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .899999976
+              width: .0500000007
+              height: .0500000007
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .200000003
+              y: .850000024
+              width: .0500000007
+              height: .0500000007
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+        - leftFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .699999988
+              width: .0500000007
+              height: .100000001
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+          rightFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .25
+              y: .649999976
+              width: .0500000007
+              height: .100000001
+            flipped: 1
+            direction: 0
+            rotated: 0
+            rotation: 0
+          downFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .150000006
+              y: .800000012
+              width: .100000001
+              height: .0500000007
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          upFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .0500000007
+              y: .949999988
+              width: .100000001
+              height: .0500000007
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleHorizontalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .0500000007
+              y: .800000012
+              width: .100000001
+              height: .0500000007
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+          doubleVerticalFace:
+            atlasLocation:
+              serializedVersion: 2
+              x: .150000006
+              y: .649999976
+              width: .0500000007
+              height: .100000001
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+        _smallestKey: 1
+      corners:
+        aaaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aaad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        aarg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .150000006
+            y: .699999988
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        addd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        adrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .0500000007
+            y: .699999988
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agla:
+          atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: .949999988
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        agld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bbbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .100000001
+            y: .649999976
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bblc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .800000012
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .800000012
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcdc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        bcrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .800000012
+            width: .0500000007
+            height: .0500000007
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        daad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dada:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dadd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        darg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dddd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        ddrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgla:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        dgld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbbg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .600000024
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbla:
+          atlasLocation:
+            serializedVersion: 2
+            x: .25
+            y: .699999988
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lbld:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcaa:
+          atlasLocation:
+            serializedVersion: 2
+            x: .0500000007
+            y: .800000012
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcad:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcda:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcdd:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        lcrg:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        raac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .0500000007
+            y: .800000012
+            width: .0500000007
+            height: .0500000007
+          flipped: 1
+          direction: 0
+          rotated: 0
+          rotation: 0
+        radc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rarb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .150000006
+            y: .649999976
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdac:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rddc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rdrb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rgbb:
+          atlasLocation:
+            serializedVersion: 2
+            x: .150000006
+            y: .600000024
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        rglc:
+          atlasLocation:
+            serializedVersion: 2
+            x: .200000003
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+        unknown:
+          atlasLocation:
+            serializedVersion: 2
+            x: .400000006
+            y: .5
+            width: .0500000007
+            height: .0500000007
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+  animationSets:
+    show: 1
+    keys:
+    - Grass
+    values:
+    - tileSize: 256
+      uvMarginMode: 1
+      material: {fileID: 2100000, guid: 9b265c9390d94074ead90d85ffca6c38, type: 2}
+      framesPerSecond: 5
+      sets:
+        keys: 0100000002000000
+        values:
+        - candidateFrames: 0400000001000000
+          horizontalFaces:
+          - atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .75
+              width: .5
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+            frames: 1
+          - atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .5
+              width: .5
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+            frames: 1
+          - atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .25
+              width: .5
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+            frames: 1
+          - atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .5
+              width: .5
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+            frames: 1
+          verticalFaces:
+          - atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .5
+              height: .25
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+            frames: 1
+        - candidateFrames: 0400000001000000
+          horizontalFaces:
+          - atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .75
+              width: 1
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+            frames: 1
+          - atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .5
+              width: 1
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+            frames: 1
+          - atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .25
+              width: 1
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+            frames: 1
+          - atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: .5
+              width: 1
+              height: .25
+            flipped: 0
+            direction: 1
+            rotated: 0
+            rotation: 0
+            frames: 1
+          verticalFaces:
+          - atlasLocation:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: .5
+              height: .5
+            flipped: 0
+            direction: 0
+            rotated: 0
+            rotation: 0
+            frames: 1
+        _smallestKey: 1
+      corners:
+        candidateFrames: 0100000001000000010000000100000001000000
+        centric:
+        - atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+          frames: 1
+        left:
+        - atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+          frames: 1
+        right:
+        - atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+          frames: 1
+        bottom:
+        - atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+          frames: 1
+        top:
+        - atlasLocation:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: .5
+            height: .25
+          flipped: 0
+          direction: 0
+          rotated: 0
+          rotation: 0
+          frames: 1
