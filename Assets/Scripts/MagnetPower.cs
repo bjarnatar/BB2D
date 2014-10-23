@@ -33,6 +33,7 @@ public class MagnetPower : MonoBehaviour
 					Vector2 forceVector = (Vector2)(rb.transform.position - transform.position);
 					// Apply force to the other rigidbody
 					rb.AddForceAtPosition(forceVector * force, transform.position);
+					//rb.AddForce (forceVector * force);
 				}
 			}
 		}
@@ -49,6 +50,7 @@ public class MagnetPower : MonoBehaviour
 					Vector2 forceVector = (Vector2)(rb.transform.position - transform.position);
 					// Apply force to the other rigidbody
 					rb.AddForceAtPosition(forceVector * -force, transform.position);
+					//rb.AddForce (forceVector * -force);
 				}
 			}
 		}
