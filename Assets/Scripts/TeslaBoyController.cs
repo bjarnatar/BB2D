@@ -74,13 +74,15 @@ public class TeslaBoyController : MonoBehaviour
 
 		// If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
 		if(horizontalInput * rigidbody2D.velocity.x < topSpeedAdjusted)
-			// ... add a force to the player.
+		{ // ... add a force to the player.
 			rigidbody2D.AddForce(Vector2.right * horizontalInput * moveForce);
+		}
 		
 		// If the player's horizontal velocity is greater than the maxSpeed...
 		if(Mathf.Abs(rigidbody2D.velocity.x) > topSpeedAdjusted)
-			// ... set the player's velocity to the maxSpeed in the x axis.
+		{ // ... set the player's velocity to the maxSpeed in the x axis.
 			rigidbody2D.velocity = new Vector2(Mathf.Sign(rigidbody2D.velocity.x) * topSpeedAdjusted, rigidbody2D.velocity.y);
+		}
 
 		Debug.Log ("Velocity: " + rigidbody2D.velocity.ToString());
 	}
