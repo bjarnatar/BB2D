@@ -11,7 +11,11 @@ public class Teleport : MonoBehaviour
 	{
 		if (other.tag == "Player")
 		{
-			other.rigidbody2D.position = destination.position;
+			if (destination)
+			{
+				other.rigidbody2D.position = destination.position;
+			}
+
 			if (killSpeed)
 			{
 				other.rigidbody2D.velocity = Vector2.zero;
@@ -19,7 +23,7 @@ public class Teleport : MonoBehaviour
 
 			if (destinationCamera)
 			{
-				Camera.current.gameObject.SetActive(false);
+				Camera.main.gameObject.SetActive(false);
 				destinationCamera.gameObject.SetActive(true);
 			}
 		}
