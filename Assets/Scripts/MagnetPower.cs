@@ -5,6 +5,7 @@ public class MagnetPower : MonoBehaviour
 {
 	public float range = 3;
 	public float force = 10;
+	public bool affectSelf = false;
 	public LayerMask excludeLayers;
 
 	private Rigidbody2D myRigidBody;
@@ -38,6 +39,10 @@ public class MagnetPower : MonoBehaviour
 						// Apply force to the other rigidbody
 						rb.AddForceAtPosition(forceVector * force, transform.position);
 						//rb.AddForce (forceVector * force);
+						if (affectSelf)
+						{
+							rigidbody2D.AddForce(forceVector * -force, ForceMode2D.Force);
+						}
 					}
 				}
 			}
@@ -58,7 +63,11 @@ public class MagnetPower : MonoBehaviour
 						Vector2 forceVector = (Vector2)(rb.transform.position - transform.position);
 						// Apply force to the other rigidbody
 						rb.AddForceAtPosition(forceVector * -force, transform.position);
-						//rb.AddForce (forceVector * -force);
+
+						if (affectSelf)
+						{
+							rigidbody2D.AddForce(forceVector * force, ForceMode2D.Force);
+						}
 					}
 				}
 			}
