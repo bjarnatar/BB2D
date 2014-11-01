@@ -89,7 +89,7 @@ public class TeslaBoyController : MonoBehaviour
 	
 	public void Die()
 	{
-		Application.LoadLevel(0);
+		Application.LoadLevel(Application.loadedLevel);
 	}
 
 	void Flip()
