@@ -5,6 +5,7 @@ public class MagnetPower : MonoBehaviour
 {
 	public float range = 3;
 	public float force = 10;
+	public LayerMask excludeLayers;
 
 	private Rigidbody2D myRigidBody;
 
@@ -26,14 +27,18 @@ public class MagnetPower : MonoBehaviour
 			Rigidbody2D[] rigidbodies = GameObject.FindObjectsOfType<Rigidbody2D>();
 			foreach(Rigidbody2D rb in rigidbodies)
 			{
-				float distance = (rb.position - (Vector2)transform.position).magnitude;
-
-				if (distance < range && rb != myRigidBody)
+				// Only do the magnetism if target object is not in the exclude layer
+				if (((1 << rb.gameObject.layer) & excludeLayers.value) == 0)
 				{
-					Vector2 forceVector = (Vector2)(rb.transform.position - transform.position);
-					// Apply force to the other rigidbody
-					rb.AddForceAtPosition(forceVector * force, transform.position);
-					//rb.AddForce (forceVector * force);
+					float distance = (rb.position - (Vector2)transform.position).magnitude;
+
+					if (distance < range && rb != myRigidBody)
+					{
+						Vector2 forceVector = (Vector2)(rb.transform.position - transform.position);
+						// Apply force to the other rigidbody
+						rb.AddForceAtPosition(forceVector * force, transform.position);
+						//rb.AddForce (forceVector * force);
+					}
 				}
 			}
 		}
@@ -43,14 +48,18 @@ public class MagnetPower : MonoBehaviour
 			Rigidbody2D[] rigidbodies = GameObject.FindObjectsOfType<Rigidbody2D>();
 			foreach(Rigidbody2D rb in rigidbodies)
 			{
-				float distance = (rb.position - (Vector2)transform.position).magnitude;
-				
-				if (distance < range && rb != myRigidBody)
+				// Only do the magnetism if target object is not in the exclude layer
+				if (((1 << rb.gameObject.layer) & excludeLayers.value) == 0)
 				{
-					Vector2 forceVector = (Vector2)(rb.transform.position - transform.position);
-					// Apply force to the other rigidbody
-					rb.AddForceAtPosition(forceVector * -force, transform.position);
-					//rb.AddForce (forceVector * -force);
+					float distance = (rb.position - (Vector2)transform.position).magnitude;
+				
+					if (distance < range && rb != myRigidBody)
+					{
+						Vector2 forceVector = (Vector2)(rb.transform.position - transform.position);
+						// Apply force to the other rigidbody
+						rb.AddForceAtPosition(forceVector * -force, transform.position);
+						//rb.AddForce (forceVector * -force);
+					}
 				}
 			}
 		}
