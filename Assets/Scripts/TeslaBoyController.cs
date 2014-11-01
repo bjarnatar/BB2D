@@ -3,10 +3,12 @@ using System.Collections;
 
 public class TeslaBoyController : MonoBehaviour
 {
+	public float moveForce = 365f;			// Amount of force added to move the player left and right.
 	public float topSpeed = 10.0f;
 	public float jumpForce = 10.0f;
 	public Transform[] groundCheck;
 	public float groundedDistance = 0.05f;
+	public float lookAheadDistance = 0.05f;
 
 	private Animator animator;
 	private bool facingRight = true;
@@ -33,23 +35,85 @@ public class TeslaBoyController : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate ()
 	{
-		float speed = Input.GetAxis("Horizontal") * topSpeed;
+		float horizontalInput = Input.GetAxis("Horizontal");
+		animator.SetFloat("Speed", Mathf.Abs (horizontalInput));
+
+		bool grounded = IsGrounded();
+		if (!grounded && IsWallAhead())
+		{
+			//Debug.Log("Blah");
+			horizontalInput = 0;
+		}
 
 		// If speed is greater than 0 AND NOT facingRight
-		if (speed > 0 && !facingRight)
+		if (horizontalInput > 0 && !facingRight)
 		{
 			Flip();
 		}
-		else if (speed < 0 && facingRight)
+		else if (horizontalInput < 0 && facingRight)
 		{
 			Flip();
 		}
 
 		// Horizontal movement
-		rigidbody2D.velocity = new Vector2(speed, rigidbody2D.velocity.y);
+		//rigidbody2D.velocity = new Vector2(speed, rigidbody2D.velocity.y);
 
-		speed = Mathf.Abs(speed);
-		animator.SetFloat("Speed", speed);
+		float topSpeedAdjusted = topSpeed;
+		MovingPlatform mp = GetMovingPlatformStandingOn();
+		if (mp)
+		{
+			float moveDir = facingRight ? 1 : -1;
+			if (Mathf.Abs(horizontalInput) < 0.05f)
+			{
+				topSpeedAdjusted = Mathf.Abs(mp.GetPlatformVelocity().x);
+			}
+			topSpeedAdjusted += mp.GetPlatformVelocity().x * moveDir;
+		}
+
+		// If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
+		if(horizontalInput * rigidbody2D.velocity.x < topSpeedAdjusted)
+			// ... add a force to the player.
+			rigidbody2D.AddForce(Vector2.right * horizontalInput * moveForce);
+		
+		// If the player's horizontal velocity is greater than the maxSpeed...
+		if(Mathf.Abs(rigidbody2D.velocity.x) > topSpeedAdjusted)
+			// ... set the player's velocity to the maxSpeed in the x axis.
+			rigidbody2D.velocity = new Vector2(Mathf.Sign(rigidbody2D.velocity.x) * topSpeedAdjusted, rigidbody2D.velocity.y);
+
+		Debug.Log ("Velocity: " + rigidbody2D.velocity.ToString());
+	}
+
+//	void LateUpdate()
+//	{
+//		//Debug.Log ("Hello?");
+//		MovingPlatform mp = GetMovingPlatformStandingOn();
+//		if (mp)
+//		{
+//			rigidbody2D.MovePosition(rigidbody2D.position + mp.platformDelta);
+//		}
+//	}
+
+	void OnCollisionStay(Collision collision)
+	{
+		if (collision.gameObject.tag == "MovingPlatform")
+		{
+			transform.parent = collision.gameObject.transform;
+			Debug.Log("On PLatform " + transform.parent.gameObject.name);
+		}
+	}
+	
+	void OnCollisionExit(Collision collision)
+	{
+		if (collision.gameObject.tag == "MovingPlatform")
+		{
+			transform.parent = null;
+			Debug.Log("Not on Platform");
+		}
+	}
+
+	public void Die()
+	{
+		Application.LoadLevel(0);
 	}
 
 	void Flip()
@@ -77,5 +141,34 @@ public class TeslaBoyController : MonoBehaviour
 		return false;
 	}
 
+	bool IsWallAhead()
+	{
+		float movementDirection = facingRight ? 1.0f : -1.0f;
+		Vector2 start = rigidbody2D.position + new Vector2((collider2D.bounds.extents.x * movementDirection), 0);
+		//Debug.Log ("Dist: " + (start-rigidbody2D.position).ToString());
+		RaycastHit2D rcHit = Physics2D.Raycast (start, Vector2.right * movementDirection, lookAheadDistance, 1 << 8);
+		
+		if (rcHit)
+		{
+			return true;
+		}
+		return false;
+	}
+
+	MovingPlatform GetMovingPlatformStandingOn()
+	{
+		for (int i = 0 ; i < groundCheck.Length ; ++i)
+		{
+			Vector2 start = new Vector2(groundCheck[i].position.x, groundCheck[i].position.y);
+			Vector2 end = start + Vector2.up * -groundedDistance;
+			RaycastHit2D rh = Physics2D.Linecast(start, end);
+			
+			if (rh.collider && rh.collider.GetComponent<MovingPlatform>())
+			{
+				return rh.collider.GetComponent<MovingPlatform>();
+			}
+		}
+		return null;
+	}
 
 }
