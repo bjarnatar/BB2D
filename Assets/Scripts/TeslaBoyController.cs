@@ -39,9 +39,10 @@ public class TeslaBoyController : MonoBehaviour
 		animator.SetFloat("Speed", Mathf.Abs (horizontalInput));
 
 		bool grounded = IsGrounded();
-		if (!grounded && IsWallAhead())
-		{
-			//Debug.Log("Blah");
+		bool wallAhead = IsWallAhead();
+
+		if (!grounded && wallAhead)
+		{ // Set input to 0 to not push into the wall
 			horizontalInput = 0;
 		}
 
@@ -56,18 +57,19 @@ public class TeslaBoyController : MonoBehaviour
 		}
 
 		// Horizontal movement
-		//rigidbody2D.velocity = new Vector2(speed, rigidbody2D.velocity.y);
-
 		float topSpeedAdjusted = topSpeed;
 		MovingPlatform mp = GetMovingPlatformStandingOn();
 		if (mp)
 		{
 			float moveDir = facingRight ? 1 : -1;
 			if (Mathf.Abs(horizontalInput) < 0.05f)
-			{
+			{ // No input - Limit top speed to platform's speed
 				topSpeedAdjusted = Mathf.Abs(mp.GetPlatformVelocity().x);
 			}
-			topSpeedAdjusted += mp.GetPlatformVelocity().x * moveDir;
+			else
+			{ // Limit top speed to previous top speed plus platform's speed
+				topSpeedAdjusted += mp.GetPlatformVelocity().x * moveDir;
+			}
 		}
 
 		// If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
@@ -82,35 +84,7 @@ public class TeslaBoyController : MonoBehaviour
 
 		Debug.Log ("Velocity: " + rigidbody2D.velocity.ToString());
 	}
-
-//	void LateUpdate()
-//	{
-//		//Debug.Log ("Hello?");
-//		MovingPlatform mp = GetMovingPlatformStandingOn();
-//		if (mp)
-//		{
-//			rigidbody2D.MovePosition(rigidbody2D.position + mp.platformDelta);
-//		}
-//	}
-
-	void OnCollisionStay(Collision collision)
-	{
-		if (collision.gameObject.tag == "MovingPlatform")
-		{
-			transform.parent = collision.gameObject.transform;
-			Debug.Log("On PLatform " + transform.parent.gameObject.name);
-		}
-	}
 	
-	void OnCollisionExit(Collision collision)
-	{
-		if (collision.gameObject.tag == "MovingPlatform")
-		{
-			transform.parent = null;
-			Debug.Log("Not on Platform");
-		}
-	}
-
 	public void Die()
 	{
 		Application.LoadLevel(0);
