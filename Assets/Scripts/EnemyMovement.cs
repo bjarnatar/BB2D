@@ -5,15 +5,25 @@ public class EnemyMovement : MonoBehaviour
 {
 	public float movementSpeed = 5.0f;
 	public bool ignoreDrops = false;
+	public bool moveTowardsPlayer = false;
 
 	public int movementDirection = 1;
 	public float lookDownDistance = 0.6f;
 	public float lookAheadDistance = 0.2f;
 
+	public float facingPlayerMargin = 0.2f;
+
+	private Transform playerTransform;
+
 	// Use this for initialization
 	void Start ()
 	{
-	
+		// Find player object
+		GameObject player = GameObject.FindGameObjectWithTag("Player");
+		if (player)
+		{
+			playerTransform = player.transform;
+		}
 	}
 	
 	// Update is called once per frame
@@ -24,12 +34,32 @@ public class EnemyMovement : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		if (IsWallAhead() || (!ignoreDrops && IsDropAhead()))
+		if (moveTowardsPlayer)
+		{
+			if (!IsFacingPlayer())
+			{
+				Flip();
+			}
+		}
+		else if (IsWallAhead() || (!ignoreDrops && IsDropAhead()))
 		{
 			Flip();
 		}
 		rigidbody2D.velocity = new Vector2(movementSpeed * movementDirection, rigidbody2D.velocity.y);
 		
+	}
+
+	bool IsFacingPlayer()
+	{
+		if ((playerTransform.position.x - transform.position.x) > facingPlayerMargin && movementDirection < 0)
+		{
+			return false;
+		}
+		else if ((transform.position.x - playerTransform.position.x) > facingPlayerMargin && movementDirection > 0)
+		{
+			return false;
+		}
+		return true;
 	}
 
 	void Flip()
